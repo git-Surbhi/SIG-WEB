@@ -66,3 +66,101 @@ b{
     font-family: cursive;
     font-size: 25px;
 }
+
+.container{
+
+    width: 97%;
+    border: rgb(5 30 100);
+    border-style: dotted;
+    margin: 3px auto;
+    padding: 30px;
+    background-color: lightblue;
+    background-image: url("https://4.imimg.com/data4/TW/OW/MY-30165244/cold-coffee.jpg");
+    background-size: 100%;
+}
+.sec{
+    margin: 3px auto;
+    padding: 20px;
+    border: solid;
+    border-color: darkblue;
+    background-color: rgb(248 238 232);
+}
+
+.myDiv {
+  border: 8px outset rgb(87, 8, 2);
+  border-radius: 12px;
+  background-color: rgb(214, 247, 245);    
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  }
+
+  #image{
+        
+        width:80%;
+        height:60%;
+        padding-left: 20%;
+        opacity: 1.0;
+  }
+  #image:hover{
+      opacity:0.5;
+  }
+
+  #ingredients{
+      clear: both;
+    float: left;
+      text-align: center;
+      width: 39.5%;
+      margin-left: 5px auto;
+      padding: 20px;
+      
+  }
+ #preparation{
+    float: right;
+     width: 60%;
+     padding: 27px;
+     margin: 3px auto;
+     background-image: url("https://4.imimg.com/data4/TW/OW/MY-30165244/cold-coffee.jpg");
+       background-size:100%;
+       background-blend-mode:overlay;
+ }
+
+ #addon{
+     clear: both;
+     width: 100%;
+     padding: 2px;
+     text-align: center;
+     
+ }
+
+ .b{
+     padding:5px;
+     font-weight: bold;
+     cursor: pointer;
+     align-content: flex-end;
+     font-size: 18px;
+ }
+
+ .b:hover{
+     color: blue;
+ }
+
+ .b:active{
+     background-color:yellow ;
+ }
+ .b:visited{
+     background-color: violet;
+ }
+
+ summary:hover{
+     color:rgb(218, 25, 25);
+ }
+
+ #h{
+     color: rgb(25, 129, 248);
+     padding: 75px;
+      font-family: 'Monoton', cursive;
+ }
+  #h:hover{
+        color: rgb(175, 84, 9);
+        cursor: pointer;
+  }
