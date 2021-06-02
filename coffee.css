@@ -1,0 +1,68 @@
+#bgstyle
+{
+  background-color:bisque ; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+#footsty{
+    font-family: cursive;
+      color:rgb(15 20 170);
+      background-color: rgb(246 244 218);
+      padding: 20px;
+      
+  }
+
+#fontstyle{
+    font-family: cursive;
+    color:rgb(76, 0, 255);          
+}
+#qoute{
+    font-style:italic;
+    color: rgb(129, 40, 5); 
+    font-size:20mm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    font-size: 39px ;
+    color: rgb(237, 253, 7);
+    font-family: fantasy;
+  }
+header {
+    background-color: rgb(56, 65, 54);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+table{
+    border: darkblue;
+    border-width:5px;
+    border-style: dashed;
+    box-sizing:border-box;
+    background-color: rgb(252, 250, 228);
+    padding: 10px;
+}
+thead{
+    background-color: brown;
+    color: rgb(253, 255, 151);
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+
+tbody{
+    color: black;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+td{
+    text-align: center;
+    border: solid;
+}
+b{
+    color: rgb(25, 6, 136);
+    font-family: cursive;
+    font-size: 25px;
+}
