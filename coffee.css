@@ -59,11 +59,14 @@
 
   .container2{
     position: relative;
-    float:right;
+    display: flex;
+    /* float: right; */
     margin: 3px auto;
     width: 42vw;
     height: 84vh;
-  }
+    flex-wrap: wrap;
+}
+  
 
   .container2:hover .overlay{
     height: 100%;
@@ -85,15 +88,16 @@
      text-align: center;
  }
 
- a {
-    font-size: 39px ;
+ #a {
     color: rgb(237, 253, 7);
-    font-family: fantasy;
     text-decoration: none;
+    font-family: fantasy;
+    font-size: 39px;
   }
  
-  a:hover{
+  #a:hover{
     color: blue;
+    transform: scale(1.2);
   } 
 
   ul {
@@ -168,6 +172,7 @@
   background-color:bisque ; 
   font-family: 'Times New Roman', Times, serif;
   font-size: 23px;
+  margin: 0;
 }
 #footsty{
     font-family: cursive;
@@ -184,11 +189,12 @@
 
 
 .opac {
-  position: absolute;
+  position: fixed;
+  overflow: hidden;
     top: 0%;
     left: 0;
     background-color: #111111;
-    opacity: 0;
+    opacity: 0.5;
     border-color: #111111;
     border: solid;
     width: 100%;
@@ -210,7 +216,7 @@
 
 }
 header:hover .opac{
-    opacity: 0.7;
+    opacity: 1;
 }
 
 table{
@@ -269,14 +275,13 @@ b{
     border-radius: 12px;
     background-color: rgb(214, 247, 245);
     text-align: center;
-    margin: 2rem auto;
-    height: 23rem;
+    height: 24rem;
     }
 
     .overlay2{
       position: absolute;
     bottom: 0;
-    top: 60em;
+    top: 42em;
     left: 0;
     right: 0;
     width: 75rem;
