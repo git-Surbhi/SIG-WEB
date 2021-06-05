@@ -38,7 +38,7 @@
   .image2{
     display: block;
     width: 30rem;
-    height: 82vh;
+    height: 32rem;
     box-shadow: 0 9px 24px 0 rgb(0 0 0 / 62%), 0 15px 20px 0 rgb(0 0 0 / 48%);
 }
 
@@ -60,11 +60,11 @@
   .container2{
     position: relative;
     display: flex;
-    /* float: right; */
     margin: 3px auto;
     width: 42vw;
     height: 84vh;
     flex-wrap: wrap;
+    z-index: 32;
 }
   
 
@@ -192,7 +192,7 @@
 
 .opac {
   position: fixed;
-  overflow: hidden;
+    overflow: hidden;
     top: 0%;
     left: 0;
     background-color: #111111;
@@ -206,6 +206,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
+    z-index: 35;
   }
   header {
     position: relative;
