@@ -1,9 +1,11 @@
-.container{ width: 97%;
+.container{ 
+    width: 95rem;
     border: rgb(5 30 100);
     border-style: dotted;
     margin: 3px auto;
     padding: 30px;
-    background-color: lightblue;}
+    background-color: lightblue;
+}
 
 .sec{
     margin: 3px auto;
@@ -45,14 +47,14 @@
   .overlay {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 6rem;
     right: 0;
     background-color: rgb(248 238 232);
     border: solid;
     border-color: rgb(15 20 170);
     padding-left: 10px;
     overflow: hidden;
-    width: 38vw;
+    width: 36rem;
     height: 0;
     transition: .5s ease;
   }
@@ -60,15 +62,13 @@
   .container2{
     position: relative;
     display: flex;
-    margin: 3px auto;
-    width: 42vw;
-    height: 84vh;
+    margin: 7px auto;
     flex-wrap: wrap;
     z-index: 32;
-}
+    justify-content: space-around;
+  }
   
-
-  .container2:hover .overlay{
+.container2:hover .overlay{
     height: 100%;
   }
 
@@ -121,8 +121,7 @@
     top:50%;
     padding:20px;
     cursor: pointer;
-    align-content: flex-end;
-    
+    align-content: flex-end;   
 }
 
 #b1:hover{
@@ -180,8 +179,7 @@
     font-family: cursive;
       color:rgb(15 20 170);
       background-color: rgb(246 244 218);
-      padding: 20px;
-      
+      padding: 20px;    
   }
 
 #fontstyle{
@@ -235,7 +233,6 @@ thead{
     color: rgb(253, 255, 151);
     font-size: 30px;
     font-family: cursive;
-    
 }
 
 tbody{
@@ -243,6 +240,7 @@ tbody{
     font-size: 26px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 td{
     text-align: center;
     border: solid;
