@@ -1,10 +1,10 @@
 .container{ 
-    width: 95rem;
-    border: rgb(5 30 100);
-    border-style: dotted;
-    margin: 3px auto;
-    padding: 30px;
-    background-color: lightblue;
+  width: 76rem;
+  border: rgb(5 30 100);
+  border-style: dotted;
+  margin: 3px auto;
+  padding: 30px;
+  background-color: lightblue;
 }
 
 .sec{
@@ -47,14 +47,14 @@
   .overlay {
     position: absolute;
     bottom: 0;
-    left: 6rem;
+    left: 4rem;
     right: 0;
     background-color: rgb(248 238 232);
     border: solid;
     border-color: rgb(15 20 170);
     padding-left: 10px;
     overflow: hidden;
-    width: 36rem;
+    width: 31rem;
     height: 0;
     transition: .5s ease;
   }
@@ -179,7 +179,9 @@
     font-family: cursive;
       color:rgb(15 20 170);
       background-color: rgb(246 244 218);
-      padding: 20px;    
+      padding: 20px; 
+      width: 100%;   
+      text-align: center;
   }
 
 #fontstyle{
@@ -190,7 +192,6 @@
 
 .opac {
   position: fixed;
-  
   overflow: hidden;
   top: 0%;
   left: 0;
