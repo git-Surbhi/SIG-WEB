@@ -224,6 +224,7 @@
       }
       .overlay2 {
         width: 48rem;
+        top: 30rem;
     }
     #footsty {
         width: 49rem;
@@ -306,5 +307,8 @@
         }
         #meet {
             left: 6rem;
+        }
+        .overlay2 {
+            top: 34rem;
         }
 }
