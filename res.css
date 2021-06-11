@@ -132,7 +132,7 @@
 .box1 {
     display: flex;
     position: relative;
-    margin-left: 6rem;
+    margin-left: 15rem;
     padding: 20px;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -259,7 +259,7 @@
     }
     .box1 {
         
-        margin-left: 15rem;
+        margin-left: 9rem;
         padding: 20px;
     }
     .he1{
