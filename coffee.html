@@ -9,10 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=New+Rocker&family=Sansita+Swashed&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="coffee.css">
+    <link rel="stylesheet" media="screen and (max-width: 925px)" href="res.css">
+    
     <style>
         * {
             box-sizing:border-box;
         }
+        @media only screen and (min-width: 422px) {
+        .he2 { 
+            font-size: 26px;  
+        }
+        .overlay2 {
+            top: 31rem;
+        }
+    }
     </style>
     
     <title>Learn To Make Cold Coffee!!</title>
@@ -31,17 +41,18 @@
             <a href="ABOUT US.html"><button id="b1">ABOUT US</button></a>   
         </div>
         </header>
-    <h1 style="font-size: 15mm;" >Learn To Make <span id="fontstyle" >Cold</span> <span style="font-family: cursive">Coffee!!</span></h1>
+    <h1 class="he2">Learn To Make <span id="fontstyle" >Cold</span> <span style="font-family: cursive">Coffee!!</span></h1>
+    <hr>
     <div class="main">
         <div class="overlay2">
         <h2 class="myDiv" id="qoute">"When life gives you <span style="color: rgb(13, 167, 13);">lemons</span> , trade them for <span style="color: rgb(41, 6, 99);">iced coffee."</span></h2>
         </div>
-        <img src="https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581688713/DCUK/Content/iStock-938993594-1000x600.jpg" 
-            style="flex-grow: 1;">
-                <img src="https://www.pjsfranchise.com/cms/thumbnails/00/300x0/images/content/product/products-granitas2.jpg" 
-                    style="flex-grow: 1;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb9kmAljAVSzrjjRaN0wutNH74-h58vkOeaQ&usqp=CAU" 
-            style="flex-grow: 1;">
+        <img class ="image5" src="https://static01.nyt.com/images/2019/06/03/dining/kc-vietnamese-iced-coffee/kc-vietnamese-iced-coffee-articleLarge.jpg">
+
+        <img class="image5" src="https://www.pjsfranchise.com/cms/thumbnails/00/300x0/images/content/product/products-granitas2.jpg">
+    
+        <img class="image5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb9kmAljAVSzrjjRaN0wutNH74-h58vkOeaQ&usqp=CAU">
+    
     </div>
     <p style= "font-family:fantasy;">Today lets begin with the recipe of cold coffee....</p>   
     <div class="container">
@@ -108,12 +119,13 @@
         </details></div>
         <br>
     </div> 
-    </body>
-    <footer>
-        <h3 id="footsty">
+    <hr>
+    <footer id="footsty">
             Summer Chill OuT!!
-            <p>
-                <a href = "https://www.facebook.com"><button class="b">Contact Us</button></a>
-        </h3>
+            <br>
+                <a href = "https://www.facebook.com">
+                    <button class="b">Contact Us</button>
+                </a>
     </footer> 
+</body>
 </html>

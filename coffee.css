@@ -17,7 +17,96 @@
     box-shadow: 0 9px 24px 0 rgb(0 0 0 / 62%), 0 15px 20px 0 rgb(0 0 0 / 48%);
 }
 
+#meet{
+  font-family: 'Philosopher', sans-serif;
+color: rgb(82, 14, 14);
+font-size: larger;
+background-color: rgb(245, 244, 243);
+border: rgb(112, 18, 18);
+position: relative;
+left: -7rem;
+border-style: solid;
+padding: 2rem;
+text-align: center;
+width: 50vw;
+}
 
+.box1{
+  display: flex;
+position: relative;
+margin-left: 15vw;
+padding: 20px;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.bgstyle2{
+  background-color: rgba(56, 55, 55, 0.815);
+ }
+
+ .polaroid {
+  width: 50%;
+ background-color: white;
+ box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0.75), 0 6px 20px 0 rgb(0 0 0 / 0.8);
+ margin-bottom: 29px;
+   max-width: 100%;
+}
+
+
+ .container4 {
+text-align: center;
+font-size: 2rem;
+padding: 10px 20px;
+max-width:100%;
+}
+
+.container5{
+ display: flex;
+ flex-flow: row;
+ margin: 20px auto;
+ /* top: 2rem; */
+ padding: 2rem;
+ justify-content: flex-start;
+ align-items: flex-start;
+ flex-wrap: wrap;
+ align-content: center;
+}
+
+#a1{
+ text-decoration: none;
+}
+
+#a1:hover{
+ color: blue;
+ transform: scale(1.2);
+} 
+
+.he1 {
+  margin-left: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: rgb(116, 250, 255);
+}
+.he2{
+  margin-left: 30rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: rgb(16, 17, 17);
+}
+.bgstyle2{
+background-color: rgba(0, 0, 0, 0.774);
+}
+
+.img2{
+padding: 3rem;
+     max-width: 100%;
+     position: relative;
+     border-radius: 15rem;
+}
 
   #image{
         
@@ -158,12 +247,10 @@
 
  #h{
   color: rgb(25, 129, 248);
-  padding: 9rem;
   font-family: 'Monoton', cursive;
  }
   #h:hover{
         color: rgb(175, 84, 9);
-        cursor: pointer;
   }
 
   #bgstyle
@@ -208,6 +295,7 @@
   align-content: space-between;
   z-index: 35;
   }
+
   header {
     position: relative;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZfnTHYjhgio1vnSYZ5Cou9bBAgl7IfrTxQ&usqp=CAU");
@@ -216,6 +304,8 @@
     font-size: 50px;
     font-family: sans-serif;
     color: white;
+    top: 0;
+    left: 0;
 
 }
 header:hover .opac{
@@ -284,7 +374,7 @@ b{
     .overlay2{
       position: absolute;
     bottom: 0;
-    top: 18em;
+    top: 16em;
     left: 0;
     right: 0;
     width: 75rem;
@@ -309,12 +399,23 @@ b{
 
   .header1{
     position: relative;
+    top:0;
+    left: 0;
       /* margin-top: 0em; */
       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZfnTHYjhgio1vnSYZ5Cou9bBAgl7IfrTxQ&usqp=CAU");
       background-size: 11%;
       text-align: center;
+      height: 296px;
       font-size: 50px;
       font-family: sans-serif;
       color: white;
       padding: 6rem;
   }
+
+  .image5{
+    width: 50%;
+  }
+
+
+
+  
