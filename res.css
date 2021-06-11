@@ -132,7 +132,7 @@
 .box1 {
     display: flex;
     position: relative;
-    margin-left: 15rem;
+    margin-left: 8rem;
     padding: 20px;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -241,11 +241,11 @@
     max-width: 24rem;
     position: relative;
     border-radius: 15rem;
-    left: 6rem;
+    left: 11rem;
     }   
    #meet {
     display: flex;
-    left: 6rem;
+    left: 11rem;
     top: -2rem;
     padding: 2rem;
     text-align: center;
@@ -267,6 +267,26 @@
     }
 }
 
+@media screen and (min-width: 470px) {
+    .header1 {
+        height: 20rem;
+        width: 54rem;}
+        
+        .box1 {
+            margin-left: 12rem;
+            padding: 20px;
+        }
+        #footsty {
+            width: 54rem;
+        }
+        hr{width: 54rem;}
+        .img2 {
+            left: 6rem;
+        }
+        #meet {
+            left: 6rem;
+        }
+}
 @media screen and (max-width: 470px) {
     .header1 {
         height: 20rem;
@@ -279,5 +299,12 @@
         #footsty {
             width: 54rem;
         }
-        hr{width: 54rem;}
+        hr{width: 54rem;
+        }
+        .img2 {
+            left: 6rem;
+        }
+        #meet {
+            left: 6rem;
+        }
 }
