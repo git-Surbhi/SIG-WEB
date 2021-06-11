@@ -191,10 +191,10 @@
 .overlay2 {
     position: absolute;
     bottom: 0;
-    top: 34rem;
+    top: 32rem;
     left: 0;
     right: 0;
-    width: 49rem;
+    width: 100%;
     margin-left: 20px;
     transition: .8s ease;
 }
@@ -216,11 +216,11 @@
         }
         #qoute {
            
-            padding: 4rem;
+            padding: 8rem;
         }
         .myDiv {
             
-            height: 45%;
+            height: 100%;
       }
       .overlay2 {
         width: 48rem;
@@ -267,7 +267,7 @@
     }
 }
 
-@media screen and (min-width: 470px) {
+@media screen and (max-width: 470px) {
     .header1 {
         height: 20rem;
         width: 54rem;}
